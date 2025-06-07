@@ -66,7 +66,3 @@ mediatek.wlan.ctia=0
 wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
 
-# DroidX-UI stuff
-ro.droidx.chipset=Mediatek Dimensity 7300
-ro.droidx.display_resolution=6.67" AMOLED 1080x2400
-ro.droidx.maintainer=Ashwani_&_schoosh

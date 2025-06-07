@@ -68,6 +68,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-derp
+
 PRODUCT_PACKAGES += \
     FrameworksResOverlayTetris \
     SettingsResTetris \

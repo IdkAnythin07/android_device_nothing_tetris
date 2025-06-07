@@ -8,13 +8,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common DroidX-UI stuff.
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from tetris device
 $(call inherit-product, device/nothing/tetris/device.mk)
 
-PRODUCT_NAME := droidx_tetris
+PRODUCT_NAME := derp_tetris
 PRODUCT_DEVICE := tetris
 PRODUCT_BRAND := Nothing
 PRODUCT_MANUFACTURER := Nothing
@@ -31,6 +31,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2502082015:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
-# DroidX-UI stuff
-DROIDX_BUILD_TYPE := OFFICIAL
-DROIDX_GAPPS := true
